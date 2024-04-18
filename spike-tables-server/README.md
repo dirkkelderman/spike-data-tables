@@ -42,3 +42,7 @@ Before running the server, make sure you have the following installed:
 ## Running the Server
 
 To start the server, run the following command:
+
+```bash
+ node server.js
+```
