@@ -1,0 +1,27 @@
+/* Regular CSS */
+
+:root {
+    --ka-background-color: #2c2c2c;
+    --ka-border-color: #4d4d4d;
+    --ka-cell-hover-background-color: rgba(255, 255, 255, 0.8);
+    --ka-color-base: #fefefe;
+    --ka-input-background-color: var(--ka-background-color);
+    --ka-input-border-color: var(--ka-border-color);
+    --ka-input-color: var(--ka-color-base);
+    --ka-row-hover-background-color: rgba(255, 255, 255, 0.9);
+    --ka-thead-background-color: #1b1b1b;
+    --ka-thead-color: #c5c5c5;
+  }
+  
+  /* Example usage */
+  body {
+    background-color: var(--ka-background-color);
+    color: var(--ka-color-base);
+  }
+  
+  input {
+    background-color: var(--ka-input-background-color);
+    border-color: var(--ka-input-border-color);
+    color: var(--ka-input-color);
+  }
+  
